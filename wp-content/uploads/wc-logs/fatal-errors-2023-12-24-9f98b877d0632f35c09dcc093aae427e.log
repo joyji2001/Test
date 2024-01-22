@@ -1,0 +1,10 @@
+2023-12-24T11:35:17+00:00 CRITICAL Uncaught Error: Call to undefined method ElementorPro\Core\Utils::_unstable_check_document_permissions() in /home/amnuay/domains/restroundphangnga.amnuaysin.com/public_html/wp-content/plugins/elementor-pro/modules/payments/module.php:146
+Stack trace:
+#0 [internal function]: ElementorPro\Modules\Payments\Module->get_stripe_tax_rates()
+#1 /home/amnuay/domains/restroundphangnga.amnuaysin.com/public_html/wp-content/plugins/elementor/core/common/modules/ajax/module.php(176): call_user_func()
+#2 /home/amnuay/domains/restroundphangnga.amnuaysin.com/public_html/wp-includes/class-wp-hook.php(324): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request()
+#3 /home/amnuay/domains/restroundphangnga.amnuaysin.com/public_html/wp-includes/class-wp-hook.php(348): WP_Hook->apply_filters()
+#4 /home/amnuay/domains/restroundphangnga.amnuaysin.com/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#5 /home/amnuay/domains/restroundphangnga.amnuaysin.com/public_html/wp-admin/admin-ajax.php(188): do_action()
+#6 {ma in /home/amnuay/domains/restroundphangnga.amnuaysin.com/public_html/wp-content/plugins/elementor-pro/modules/payments/module.php on line 146
+
